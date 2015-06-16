@@ -1,0 +1,73 @@
+2015-06-16 21:55:05 [::1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/signup' in F:\wamp\www\julio-application\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 F:\wamp\www\julio-application\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('signup', Array)
+#1 F:\wamp\www\julio-application\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/signup', Array)
+#2 F:\wamp\www\julio-application\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\wamp\www\julio-application\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\wamp\www\julio-application\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\wamp\www\julio-application\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\wamp\www\julio-application\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-16 21:55:05 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    'ctxjs1420m06d05' => '7b2273756363657373223a302c226c6f675f616374697665223a317d'
+    '_ttuu_s' => '1434411880409'
+    'tt_nprf' => '24'
+    'ckwqy38obn' => 'MX'
+    '894h35bnklpsq' => 'MX'
+    '83bnmklsae328y' => '34598'
+    '789345ybnf984' => '10742'
+    'uyru345hr9lks1151' => '12494278363883491434410875'
+    'PHPSESSID' => 'b3e9snkjvgaomcrfgf4mk4mil4'
+    '_csrf' => 'a6d12473e20d90f9decf042888cb837acefe8d358dfeb19f0e174951e09e85a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yH5RpkARTiYvYm1oEId4mmLrZIrEmJQQ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/julio-application/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => 'ctxjs1420m06d05=7b2273756363657373223a302c226c6f675f616374697665223a317d; _ttuu.s=1434411880409; tt.nprf=24; ckwqy38obn=MX; 894h35bnklpsq=MX; 83bnmklsae328y=34598; 789345ybnf984=10742; uyru345hr9lks1151=12494278363883491434410875; PHPSESSID=b3e9snkjvgaomcrfgf4mk4mil4; _csrf=a6d12473e20d90f9decf042888cb837acefe8d358dfeb19f0e174951e09e85a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yH5RpkARTiYvYm1oEId4mmLrZIrEmJQQ%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\MySQL\\MySQL Fabric 1.5.4 & MySQL Utilities 1.5.4 1.5\\;C:\\Program Files (x86)\\MySQL\\MySQL Fabric 1.5.4 & MySQL Utilities 1.5.4 1.5\\Doctrine extensions for PHP\\;F:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/wamp/www/julio-application/backend/web/index.php'
+    'REMOTE_PORT' => '50669'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/julio-application/backend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/julio-application/backend/web/index.php'
+    'PHP_SELF' => '/julio-application/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434484505.778
+    'REQUEST_TIME' => 1434484505
+]
